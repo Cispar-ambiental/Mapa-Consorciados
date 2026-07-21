@@ -12,7 +12,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-5981535.268688, -3082304.815760, -5461378.324512, -2699122.972521], map.getSize());
+map.getView().fit([-6134569.547133, -3092117.740366, -5354334.130869, -2520453.900577], map.getSize());
 
 //change cursor
 function pointerOnFeature(evt) {
